@@ -14,6 +14,9 @@
 ## Usage
 
 ```bash
+# download script (main.sh)
+curl -O https://raw.githubusercontent.com/shdennlin/change_user_profile_on_linux_or_windows/main/linux/main.sh
+chmod +x main.sh
 ./main.sh -ou old_username -nu new_username -hn new_computer_name
 ```
 
