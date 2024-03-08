@@ -15,9 +15,10 @@
 
 ## Usage
 
+Run PowerShell
 ```powershell
 Set-ExecutionPolicy unrestricted
-curl -O https://raw.githubusercontent.com/shdennlin/change_user_profile_on_linux_or_windows/main/windows/main.ps1
+curl -O main.ps1 https://raw.githubusercontent.com/shdennlin/change_user_profile_on_linux_or_windows/main/windows/main.ps1
 .\main.ps1 -ou oldUserName -nu newUserName -cn newComputerName
 ```
 
